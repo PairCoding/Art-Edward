@@ -6,3 +6,12 @@ ul {
     width: 105px;
     border: 1px solid black;
 }
+#head{
+    font-family: 'Anton' , sans-serif;
+}
+.round{
+    border: 18px solid white;
+}
+body{
+    background-color: lightgrey;
+}
