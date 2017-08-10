@@ -10,8 +10,30 @@ ul {
     font-family: 'Anton' , sans-serif;
 }
 .round{
-    border: 18px solid white;
+    border: 10px solid white;
+    border-radius: 50%
 }
 body{
     background-color: lightgrey;
+}
+
+#red {
+    background-color: #e6563b;
+
+}
+
+#develop {
+    background-color: #DEA03D;
+}
+
+#support {
+    background-color: #7cb06c;
+}
+
+#host {
+    background-color: #00aba9;
+}
+
+.container-solo {
+
 }
