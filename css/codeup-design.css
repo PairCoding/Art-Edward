@@ -1,4 +1,8 @@
 ul {
     text-decoration: none;
-
+}
+#logo{
+    height: 105px;
+    width: 105px;
+    border: 1px solid black;
 }
