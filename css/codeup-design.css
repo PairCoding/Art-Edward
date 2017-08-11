@@ -11,13 +11,13 @@ ul {
 }
 .round{
     border: 10px solid white;
-    border-radius: 50%
+    border-radius: 50%;
 }
 body{
     background-color: lightgrey;
 }
 
-#red {
+#design {
     background-color: #e6563b;
 
 }
@@ -34,6 +34,13 @@ body{
     background-color: #00aba9;
 }
 
-.container-solo {
 
+.round-small {
+    border-radius: 70%;
+    padding: 10px;
+    margin: 1px;
+}
+
+.container-1 {
+    width: 100%;
 }
