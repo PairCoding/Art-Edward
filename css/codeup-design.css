@@ -5,6 +5,8 @@ ul {
     height: 105px;
     width: 105px;
     border: 1px solid black;
+    position: relative;
+    bottom: 20px;
 
 }
 #head{
@@ -59,4 +61,11 @@ body{
     text-align: center;
     color: white;
 
+}
+
+.logo-container {
+    margin-top: 3em;
+    height: 40px;
+    background-color: white;
+    text-align: left:
 }
