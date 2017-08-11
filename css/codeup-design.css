@@ -5,13 +5,17 @@ ul {
     height: 105px;
     width: 105px;
     border: 1px solid black;
+
 }
 #head{
     font-family: 'Anton' , sans-serif;
 }
 .round{
     border: 10px solid white;
-    border-radius: 50%;
+    border-radius: 100%;
+    height: 150px;
+    margin-bottom: 5px;
+    padding: 20px;
 }
 body{
     background-color: lightgrey;
@@ -43,4 +47,16 @@ body{
 
 .container-1 {
     width: 100%;
+}
+.img-center {
+    position:;
+    left: 50%;
+    top: 10%;
+    /*z-indez: 1;*/
+}
+
+.font1 {
+    text-align: center;
+    color: white;
+
 }
