@@ -2,11 +2,12 @@ ul {
     text-decoration: none;
 }
 #logo{
-    height: 105px;
-    width: 105px;
-    border: 1px solid black;
+    height: 150px;
+    width: 150px;
     position: relative;
     bottom: 20px;
+    z-index: 1;
+    left: 30%;
 
 }
 #head{
@@ -17,10 +18,11 @@ ul {
     border-radius: 100%;
     height: 150px;
     margin-bottom: 5px;
-    padding: 20px;
+    padding: 30px;
 }
 body{
-    background-color: lightgrey;
+    background-color:#f0f0f0;
+    font-family: 'Abel', sans-serif;
 }
 
 #design {
@@ -44,7 +46,7 @@ body{
 .round-small {
     border-radius: 70%;
     padding: 10px;
-    margin: 1px;
+    margin: 5px;
 }
 
 .container-1 {
@@ -65,7 +67,7 @@ body{
 
 .logo-container {
     margin-top: 3em;
-    height: 40px;
+    height: 75px;
     background-color: white;
-    text-align: left:
+    text-align: left;
 }
