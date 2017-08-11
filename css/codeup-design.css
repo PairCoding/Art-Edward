@@ -19,6 +19,7 @@ ul {
     height: 150px;
     margin-bottom: 5px;
     padding: 30px;
+    font-weight: bold;
 }
 body{
     background-color:#f0f0f0;
