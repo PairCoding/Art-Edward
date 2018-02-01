@@ -1,76 +1,37 @@
-ul {
-    text-decoration: none;
-}
-#logo{
-    height: 150px;
-    width: 150px;
-    position: relative;
-    bottom: 20px;
-    z-index: 1;
-    left: 30%;
+@import url('https://fonts.googleapis.com/css?family=Abel');
 
+@media screen and (max-width: 400px){
+    #main-logo{
+        position: relative;
+    }
+
+    #logo{
+        width: 30%;
+        height: auto;
+        z-index: 1;
+    }
+    #logo-background{
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        z-index: 0;
+        margin: 80px 0;
+
+    }
 }
-#head{
-    font-family: 'Anton' , sans-serif;
-}
-.round{
-    border: 10px solid white;
-    border-radius: 100%;
-    height: 150px;
-    margin-bottom: 5px;
-    padding: 30px;
-    font-weight: bold;
-}
+
 body{
-    background-color:#f0f0f0;
+    background-color: whitesmoke;
     font-family: 'Abel', sans-serif;
 }
 
-#design {
-    background-color: #e6563b;
-
+ul.main-nav li{
+    list-style: none;
+    float: left;
+    padding: 0 10px;
 }
 
-#develop {
-    background-color: #DEA03D;
-}
-
-#support {
-    background-color: #7cb06c;
-}
-
-#host {
-    background-color: #00aba9;
-}
-
-
-.round-small {
-    border-radius: 70%;
-    padding: 5px;
-    margin: 7px;
-    height: 25px;
-    width: 25px;
-}
-
-.container-1 {
-    width: 100%;
-}
-.img-center {
-    position:;
-    left: 50%;
-    top: 10%;
-    /*z-indez: 1;*/
-}
-
-.font1 {
-    text-align: center;
-    color: white;
-
-}
-
-.logo-container {
-    margin-top: 3em;
-    height: 75px;
-    background-color: white;
-    text-align: left;
+ul.main-nav li a{
+    text-decoration: none;
+    color: black;
 }
